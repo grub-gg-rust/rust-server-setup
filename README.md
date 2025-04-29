@@ -2,15 +2,18 @@
 
 A minimal and portable setup for setting up a Rust dedicated server with Oxide (uMod) support on **Windows**.
 
-## 📁 Folder Structure
-
 ## 🛠️ Installation
 
 You can install or update the Rust server by following either the **scripted** or **manual** steps.
 
 ### ✅ Scripted (Recommended)
 
-Simply run the `install_or_update.bat` file under `/windows/install_or_update.bat`
+Begin by installing [SteamCMD](https://developer.valvesoftware.com/wiki/SteamCMD):
+
+1. Download [SteamCMD](https://developer.valvesoftware.com/wiki/SteamCMD)
+2. Extract `steamcmd.exe` to the `/windows/steamcmd` folder.
+
+Next, simply run the `install_or_update.bat` file under `/windows/install_or_update.bat`.
 
 This script will:
 
@@ -33,6 +36,23 @@ steamcmd.exe +force_install_dir ../server +login anonymous +app_update 258550 -b
    https://umod.org/games/rust/download
 
 5. Extract the contents into the `/windows/server` folder (overwrite existing files).
+
+## 📁 Folder Structure (after installation)
+
+After following the installation steps, the folder structure should look similar to this:
+
+```
+base-server-setup/
+├── windows/
+│   ├── steamcmd/
+│   │   ├── ...
+│   │   ├── steamcmd.exe
+│   │   ├── ...
+│   ├── server/
+│   │   ├── ...
+│   ├── install_or_update.bat
+│   ├── start.bat
+```
 
 ## 🚀 Running the Server
 
