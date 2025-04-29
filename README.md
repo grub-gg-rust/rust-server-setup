@@ -39,7 +39,7 @@ steamcmd.exe +force_install_dir ../server +login anonymous +app_update 258550 -b
 
 ## 📁 Folder Structure (after installation)
 
-After following the installation steps, the folder structure should look similar to this:
+After following the installation steps, the folder structure should look like this:
 
 ```
 base-server-setup/
