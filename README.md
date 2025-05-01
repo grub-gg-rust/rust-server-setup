@@ -12,9 +12,9 @@ Simply run the `install_or_update.bat` file under `/windows/install_or_update.ba
 
 This script will:
 
-- Download and install the latest version of SteamCMD.
-- Download and install the latest version of Rust Dedicated Server using SteamCMD.
-- Automatically download the latest Oxide (uMod) version and install it to the server.
+* Download and install the latest version of SteamCMD.
+* Download and install the latest version of Rust Dedicated Server using SteamCMD.
+* Automatically download the latest Oxide (uMod) version and install it to the server.
 
 ## 🧰 Manual
 
@@ -58,14 +58,14 @@ Run the file `start.bat` under `/windows/start.bat`
 
 This will start the Rust server with:
 
-- Procedural map
-- World size: 1000
-- Max players: 250
-- Game port: 28015
-- Query port: 28016
-- Hostname: grub.gg
+* Procedural map
+* World size: 1000
+* Max players: 250
+* Game port: 28015
+* Query port: 28016
+* Hostname: grub.gg
 
 ## 📌 Notes
 
-- Oxide/uMod is re-installed every time you run install_or_update.bat (to ensure compatibility with game updates).
-- Make sure ports `28015` and `28016` are open in your firewall if hosting publicly.
+* Oxide/uMod is re-installed every time you run install_or_update.bat (to ensure compatibility with game updates).
+* Make sure ports `28015` and `28016` are open in your firewall if hosting publicly.
