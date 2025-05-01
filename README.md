@@ -8,15 +8,11 @@ You can install or update the Rust server by following either the **scripted** o
 
 ### ✅ Scripted (Recommended)
 
-Begin by installing [SteamCMD](https://developer.valvesoftware.com/wiki/SteamCMD):
-
-1. Download [SteamCMD](https://developer.valvesoftware.com/wiki/SteamCMD)
-2. Extract `steamcmd.exe` to the `/windows/steamcmd` folder.
-
-Next, simply run the `install_or_update.bat` file under `/windows/install_or_update.bat`.
+Simply run the `install_or_update.bat` file under `/windows/install_or_update.bat`.
 
 This script will:
 
+- Download and install the latest version of SteamCMD.
 - Download and install the latest version of Rust Dedicated Server using SteamCMD.
 - Automatically download the latest Oxide (uMod) version and install it to the server.
 
